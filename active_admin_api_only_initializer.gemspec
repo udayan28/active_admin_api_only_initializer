@@ -7,11 +7,11 @@ require "active_admin_api_only_initializer/version"
 Gem::Specification.new do |spec|
   spec.name        = "active_admin_api_only_initializer"
   spec.version     = ActiveAdminApiOnlyInitializer::VERSION
-  spec.authors     = ["uda5150"]
+  spec.authors     = ["udayan28"]
   spec.email       = ["tks.udagawa@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of ActiveAdminApiOnlyInitializer."
-  spec.description = "TODO: Description of ActiveAdminApiOnlyInitializer."
+  spec.homepage    = "https://github.com/udayan28"
+  spec.summary     = "Summary of ActiveAdminApiOnlyInitializer."
+  spec.description = "Description of ActiveAdminApiOnlyInitializer."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
