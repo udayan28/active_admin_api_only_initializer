@@ -10,18 +10,9 @@ Gem::Specification.new do |spec|
   spec.authors     = ["udayan28"]
   spec.email       = ["tks.udagawa@gmail.com"]
   spec.homepage    = "https://github.com/udayan28"
-  spec.summary     = "Summary of ActiveAdminApiOnlyInitializer."
-  spec.description = "Description of ActiveAdminApiOnlyInitializer."
+  spec.summary     = "Active Admin Initializer for Rails API-Only"
+  spec.description = "Active Admin Initializer for Rails API-Only"
   spec.license     = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
